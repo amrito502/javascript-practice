@@ -1,0 +1,16 @@
+Javascript OOP
+==============
+1. Abstraction
+2. Encapsulation
+3. Inheritance
+4. polymorphism
+5. This Keyword
+6. New Keyword
+7. Prototype
+8. Function Constructor
+9. Class Constructor (ES6)
+10. Object.create()
+11. Public method and properties
+12. Private method and properties
+13. Getter
+14. Setter
