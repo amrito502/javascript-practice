@@ -23,7 +23,7 @@
         }
     </script> -->
 
-    <script>
+    <!-- <script>
         var Marks = 30;
 
         if(Marks >= 80 && Marks <= 100){
@@ -42,6 +42,38 @@
             document.write("You are fail in this exam");
         }else{
             document.write("Invalid Marks");
+        }
+    </script> -->
+
+<!-- ==========switch case============ -->
+    <script>
+        var marks = 40;
+
+        switch(true){
+            case(marks >= 80 && marks <= 100): 
+                document.write("You got A+ grade");
+                break;
+            case(marks >= 70 && marks < 80):
+                document.write("You got A grade");
+                break;
+            case(marks >= 60 && marks < 70):
+                document.write("You got B grade");
+                break;
+            case(marks >= 50 && marks < 60):
+                document.write("You got C grade");
+                break;
+            case(marks >= 40 && marks < 50):
+                document.write("You got D grade");
+                break;
+            case(marks >= 33 && marks < 40):
+                document.write("You got E grade");
+                break;
+            case(marks < 33):
+                document.write("You are fail in this exam");
+                break;
+            default:
+                document.write("Invalid Marks");
+                break;
         }
     </script>
 </body>
